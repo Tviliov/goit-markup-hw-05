@@ -4,10 +4,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 0;
 }
 ul, ol {
-    list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style-type: none;
 }
 a {
     text-decoration: none;
@@ -16,20 +16,20 @@ img {
     display: block;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    background-color: #FFFFFF;
 }
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .section {
     padding-top: 120px;
@@ -54,14 +54,14 @@ body {
     align-items: center;
 }
 .top-logo {
-    font-family: "Raleway", sans-serif;
+    margin-right: 76px;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
+    font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
 }
 .top-logo-span {
     color: #2e2f42;
@@ -72,11 +72,11 @@ body {
     gap: 40px;
 }
 .menu-link {
-    font-weight: 500;
-    color: #2e2f42;
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: block;
+    color: #2e2f42;
+    font-weight: 500;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link:hover, .menu-link:focus {
@@ -89,17 +89,17 @@ body {
 .current::after {
     content: "";
     position: absolute;
-    left: 0;
     bottom: -1px;
-    background-color: #404bbf;
-    border-radius: 2px;
+    left: 0;
     width: 100%;
     height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
     
 }
 .address {
-    font-style: normal;
     margin-left: auto;
+    font-style: normal;
 }
 .address-list {
     display: flex;
@@ -116,49 +116,49 @@ body {
 
 /* -----Hero section-----*/
 .hero-section {
-    background: #2e2f42;
     max-width: 1440px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    padding: 188px 0;
+    background: #2e2f42;
     background-image:
         linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
         url(../images/hero-section.jpg);
-    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 188px 0;
+    background-repeat: no-repeat;
 }
 .hero-section-title {
+    max-width: 496px;
+    margin-right: auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+    color: #fff;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 496px;
-    margin-bottom: 48px;
 }
 .button {
     display: block;
     align-items: center;
-    margin: 0 auto;
     min-width: 169px;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    background: #4d5ae5;
-    border-radius: 4px;
+    height: 56px;
+    margin: 0 auto;
     padding: 16px 32px;
     border: none;
-    height: 56px;
+    border-radius: 4px;
+    background: #4d5ae5;
+    color: #ffffff;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover, .button:focus {
@@ -170,20 +170,20 @@ body {
 
 .benefits-hiden-title {
     position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
-    border: 0;
     padding: 0;
+    border: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 .benefits-list {
     display: flex;
-    justify-content: center;
     gap: 24px;
+    justify-content: center;
 }
 .benefits-list-item {
     max-width: calc((100% - 72px) / 4);
@@ -193,24 +193,24 @@ body {
 }
 
 .benefits-list-item .icon-box {
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    background: #f4f4fd;
-    justify-content: center;
-    margin-bottom: 8px;
     display:flex;
+    justify-content: center;
     justify-content: center;
     align-items: center;
     height: 112px;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
 }
 
 .benefits-list-title {
+    margin-bottom: 8px;
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
 }
 /* -----/Benefits section-----*/
 
@@ -221,20 +221,20 @@ body {
 }
 .team-list {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
 }
 .team-title {
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-left: auto;
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 72px;
 }
 .team-list-item {
     width: calc((100% - 72px) / 4);
@@ -246,37 +246,36 @@ body {
     padding: 32px 0;
 }
 .team-list-item-title {
+    margin-bottom: 8px;
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
 }
 .team-list-item-text {
-    font-size: 16px;
     margin-bottom: 8px;
+    font-size: 16px;
 }
 .team-link-list {
     display: flex;
+    gap: 24px;
     justify-content: center;
     align-items: center;
-    gap: 24px;
 }
 .link-list-item {
     width: 40px;
     height: 40px;
 }
 .link-list-item .item-link {
-    background-color: #4d5ae5;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+    background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .link-list-item .item-link:hover,
@@ -291,14 +290,14 @@ body {
 
 /* -----Portfolio section-----*/
 .portfolio-title {
+    margin-bottom: 72px;
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
 }
 .portfolio-list {
     display: flex;
@@ -319,16 +318,16 @@ body {
 }
 .portfolio-overlay-text {
     position: absolute;
-    left: 0;
     top: 0;
-    background-color: #4d5ae5;
-    color: #f4f4fd;
+    left: 0;
+    overflow: auto;
     width: 100%;
     height: 100%;
-    overflow: auto;
     padding: 40px 32px;
-    transform: translateY(100%);
+    background-color: #4d5ae5;
+    color: #f4f4fd;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
 }
 
 .portfolio-list-item:hover .portfolio-overlay-text {
@@ -340,23 +339,23 @@ body {
     border-top: none;
 }
 .portfolio-list-item-title {
+    margin-bottom: 8px;
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
 }
 
 /* -----Portfolio section-----*/
 
 .bottom-line {
+    padding: 100px 0;
+    background: #2e2f42;
+    color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-    background: #2e2f42;
-    padding: 100px 0;
 
 }
 .bottom-container {
@@ -365,14 +364,14 @@ body {
 }
 .bottom-logo {
     display: inline-block;
-    font-family: "Raleway", sans-serif;
+    margin-bottom: 16px;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
+    font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    margin-bottom: 16px;
 }
 .bottom-logo-span{
     color: #f4f4fd;
@@ -387,22 +386,22 @@ body {
 .bottom-link {
 }
 .bottom-text-social {
-    font-weight: 500;
-    color: #fff;
     margin-bottom: 16px;
+    color: #fff;
+    font-weight: 500;
 }
 .bottom-list {
     display: flex;
     gap: 16px;
 }
 .bottom-list-item .item-link{
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5; 
 }
 .bottom-list-item .item-link:hover, .bottom-list-item .item-link:focus {
     background-color: #31D0AA;
