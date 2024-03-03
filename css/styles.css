@@ -551,7 +551,7 @@ margin-bottom: 16px;
     gap: 4px;
 color: #8e8f99;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 }
 .modal-label-group {
@@ -601,7 +601,7 @@ letter-spacing: 0.04em;
 .modal-input::placeholder{
 color: rgba(46, 47, 66, 0.4);
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 }
 .modal-checkbox {
