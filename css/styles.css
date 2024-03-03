@@ -554,11 +554,11 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 }
-.modal-label-group {
+.modal-group {
     position: relative;
 
 }
-.modal-label-group .icon {
+.modal-group .icon {
     position: absolute;
     top: 50%;
     left: 16px;
