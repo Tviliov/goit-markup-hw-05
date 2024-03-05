@@ -645,6 +645,7 @@ letter-spacing: 0.04em;
     letter-spacing: 0.04em;
 }
 .modal-checkbox .checkbox-label .checkbox-pseudo{
+display: inline-flex;
 justify-content: center;
 align-items: center;
 width: 16px;
