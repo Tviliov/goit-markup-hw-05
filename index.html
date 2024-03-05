@@ -440,21 +440,19 @@
 
           <div class="input-wrap">
             <label class="modal-label" for="user-comment">Comment</label>
-            <div class="modal-group">
-              <textarea class="modal-message" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
-            </div>
-            <div class="modal-checkbox">
-              <input class="visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true" />
-              <label class="checkbox-label" for="user-privacy">I accept the terms and conditions of the <a class="modal-checkbox-link" href="./index.html">Privacy Policy</a></label>
-              <span class="checkbox-pseudo">
-                <svg class="icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-checkbox-vector"></use>
-                </svg>
-              </span>
-            </div>
-
-            <button class="modal-btn" type="submit">Send</button>
+            <textarea class="modal-message" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
           </div>
+          <div class="modal-checkbox">
+            <span class="checkbox-pseudo">
+              <svg class="icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-checkbox-vector"></use>
+              </svg>
+            </span>
+            <input class="visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true" />
+            <label class="checkbox-label" for="user-privacy">I accept the terms and conditions of the <a class="modal-checkbox-link" href="./index.html">Privacy Policy</a></label>
+          </div>
+
+          <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
