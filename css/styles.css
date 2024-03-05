@@ -619,7 +619,7 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 }
 .modal-checkbox {
-        display: flex;
+    display: flex;
     gap: 8px;
     margin-bottom: 24px;
 }
