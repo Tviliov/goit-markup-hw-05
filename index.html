@@ -392,7 +392,7 @@
             </label>
             <button class="form-btn bg-iris" type="submit">
               Subscribe
-              <svg class="icon" width="24" height="20">
+              <svg class="icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
             </button>
@@ -439,27 +439,22 @@
           </div>
 
           <div class="input-wrap">
-            <label class="modal-label"
-              >Comment
-              <span class="modal-group">
-                <textarea class="modal-message" name="user-message" placeholder="Text input"></textarea>
-              </span>
-            </label>
-          </div>
-          <div class="modal-checkbox">
-            <input class="modal-checkbox-input" id="accept" name="user-accept" type="checkbox" />
-            <label class="checkbox-label" for="accept">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <div class="modal-group">
+              <textarea class="modal-message" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+            </div>
+            <div class="modal-checkbox">
+              <input class="visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true" />
+              <label class="checkbox-label" for="user-privacy">I accept the terms and conditions of the <a class="modal-checkbox-link" href="./index.html">Privacy Policy</a></label>
               <span class="checkbox-pseudo">
                 <svg class="icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-checkbox-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="modal-checkbox-link" href="./index.html">Privacy Policy</a>
-            </label>
-          </div>
+            </div>
 
-          <button class="modal-btn" type="submit">Send</button>
+            <button class="modal-btn" type="submit">Send</button>
+          </div>
         </form>
       </div>
     </div>
